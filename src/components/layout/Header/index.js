@@ -73,7 +73,7 @@ function Header() {
                             <li><Link to="/">Inicio</Link></li>
                             <li><Link to="/">Novedades</Link></li>
                             <li><Link to="/">Inscripciones</Link></li>
-                            <li><Link to="/">Egresados</Link></li>
+                            <li><Link to="/xd">Egresados</Link></li>
                             <li><Link to="/">Sobre nosotros</Link></li>
                         </ul>
                     </nav>

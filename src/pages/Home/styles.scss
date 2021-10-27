@@ -1,10 +1,8 @@
 .carousel {
-    height: 400px;
-    //background-image: url(../../assets/images/nav.jpg);
-    //background-size: cover;
-    //background-position-y: center;
+    height: 450px;
     position: relative;
     display: flex;
+    overflow: hidden;
 
     .overlay {
         background: rgba(0, 0, 0, 0.2);
@@ -45,10 +43,13 @@
 
     .slideshow {
         width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        transition: all .4s ease;
 
         .slide {
             height: 100%;
-            width: 100%;
+            min-width: 100%;
 
             img {
                 height: 100%;
