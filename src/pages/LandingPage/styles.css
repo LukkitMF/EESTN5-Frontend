@@ -1,0 +1,25 @@
+.LPcontainer {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+  background-color: lightgrey;
+  margin: 10%;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+  background-color: white;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=styles.css.map */

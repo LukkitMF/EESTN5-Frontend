@@ -71,10 +71,10 @@ function Header() {
                     <nav>
                         <ul>
                             <li><Link to="/">Inicio</Link></li>
-                            <li><Link to="/">Novedades</Link></li>
-                            <li><Link to="/">Inscripciones</Link></li>
-                            <li><Link to="/xd">Egresados</Link></li>
-                            <li><Link to="/">Sobre nosotros</Link></li>
+                            <li><Link to="/inicio">Novedades</Link></li>
+                            <li><Link to="/inscripciones">Inscripciones</Link></li>
+                            <li><Link to="/egresados">Egresados</Link></li>
+                            <li><Link to="/xd">Sobre nosotros</Link></li>
                         </ul>
                     </nav>
                 </div>

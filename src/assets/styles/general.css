@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,900;1,300&display=swap");
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.row {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  row-gap: 20px;
+}
+
+.row .title {
+  grid-column: span 12;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.row .title::after {
+  content: "";
+  width: 200px;
+  height: 4px;
+  background-color: #D91503;
+  display: block;
+  position: absolute;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  right: 50%;
+  bottom: -40%;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border: 1px solid #e2eded;
+  border-color: #eaf1f1 #e4eded #dbe7e7;
+  border-radius: 3px;
+  overflow: hidden;
+}
+/*# sourceMappingURL=general.css.map */
