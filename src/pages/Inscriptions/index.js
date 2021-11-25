@@ -8,7 +8,7 @@ function Inscriptions() {
 
             <div className="Icontainer">
                 <div className="ingreso">
-                    <h1 className="title">Ingreso</h1>
+                    <h1 className="Ititle">Ingreso</h1>
                     <div className="ingresoLeft">
                         <div className="inscripcionFecha">
                             <p className="avisoInscripciones">Inscripciones 2022 abiertas hasta el ##/##/#### </p>
