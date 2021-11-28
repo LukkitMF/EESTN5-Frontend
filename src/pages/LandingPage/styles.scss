@@ -1,9 +1,14 @@
+.mainContainer{
+    background-image: url('../../assets/images/backgroundGif.gif');
+    justify-content: cover;
+}
 .LPcontainer{
     align-content: center;
     position: relative;
     background-color: lightgrey;
     margin: 10%;
     padding: 10px;
+    opacity: 0.9;
     
 
 }
