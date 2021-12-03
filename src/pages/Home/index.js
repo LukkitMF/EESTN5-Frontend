@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import './styles.scss';
+import './Istyles.scss';
 import NoticeImage1 from '../../assets/images/notice1.jpg';
 import NoticeImage2 from '../../assets/images/notice2.jpg';
 import NoticeImage3 from '../../assets/images/notice3.jpg';

@@ -1,0 +1,97 @@
+.bottomText {
+  background-color: black;
+  opacity: 0.6;
+  margin-bottom: 0%;
+  height: 30%;
+  color: white;
+  width: 100%;
+}
+
+.Sinfo {
+  opacity: 1;
+  margin: 10px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.filler {
+  height: 70%;
+  width: 100%;
+}
+
+.Simage1 {
+  background-image: url("../../assets/images/basicCycle.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+
+.Simage2 {
+  background-image: url("../../assets/images/computerScience.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.Simage3 {
+  background-image: url("../../assets/images/electronica.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
+
+.Simage4 {
+  background-image: url("../../assets/images/arquitecture.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
+
+.bottomBanner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.basicAcces {
+  width: 25%;
+  text-align: center;
+}
+
+.filler {
+  color: transparent;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modalContent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */

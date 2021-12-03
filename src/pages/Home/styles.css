@@ -103,6 +103,7 @@
 
 .bottomBanner {
   padding: 25px;
+  margin-bottom: 0;
   background-image: url(../../assets/images/so-white.png);
   background-image: url(../../assets/images/school.png);
 }
@@ -122,6 +123,11 @@
 
 .bottomBanner .card p {
   margin-top: 10px;
+}
+
+.section {
+  background: #f5f5f7;
+  margin-top: 0;
 }
 
 .section .card {

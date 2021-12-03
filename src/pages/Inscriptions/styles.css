@@ -1,0 +1,77 @@
+.Icontainer {
+  background-color: white;
+  padding: 1%;
+  margin: 5%;
+}
+
+.ingreso {
+  background-image: url(../../assets/images/school.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.Ititle {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: grey;
+  margin: 2%;
+  color: white;
+}
+
+.ingresoLeft {
+  width: 64%;
+  padding: 5px;
+  height: 100%;
+}
+
+.ingresoRight {
+  width: 36%;
+  padding: 5px;
+  height: 100%;
+}
+
+.inscripcionFecha {
+  background-color: white;
+  padding: 5%;
+  margin: 20px;
+}
+
+.inscripcionRequisitos {
+  background-color: white;
+  padding: 5%;
+  margin: 20px;
+}
+
+.ingresoPasos {
+  background-color: white;
+  padding: 5%;
+  margin: 20px;
+}
+
+.avisoInscripciones {
+  font-size: 20px;
+  font-family: Arial;
+  color: red;
+}
+
+.subtitle {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.subtitleContainer {
+  text-align: center;
+  background-color: grey;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=styles.css.map */
