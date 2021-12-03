@@ -8,10 +8,8 @@ function Graduates() {
         <>
 
             <div className="Gcontainer">
-
-                <h1 className="title">Egresados</h1>
-
                 <div className="graduates">
+                    <h1 className="title">Egresados</h1>
                     <div className="graduado">
                         <img className="fotoEgresado" src={blank} alt="egresado" />
                         <p className="infoEgresado">Nombre completo</p>

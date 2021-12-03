@@ -5,10 +5,10 @@
 }
 
 .graduates{
-    
-    
-    display: flex;
-    padding: 20px;
+    background-image: url(../../assets/images/school.png);
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .graduado{
