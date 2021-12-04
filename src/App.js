@@ -7,6 +7,7 @@ import LandingPage from './pages/LandingPage';
 import Graduates from './pages/Graduates';
 import Inscriptions from './pages/Inscriptions';
 import Specialties from './pages/Specialties';
+import Galery from './pages/Galery';
 
 import Header from './components/layout/Header';
 
@@ -21,6 +22,7 @@ function App() {
                 <Route exact path="/egresados" component={Graduates} />
                 <Route exact path="/inscripciones" component={Inscriptions} />
                 <Route exact path="/especialidades" component={Specialties} />
+                <Route exact path="/galeria" component={Galery} />
                 <Route path="*" component={NotFound} />
             </Switch>
         </div>

@@ -75,6 +75,7 @@ function Header() {
                             <li><Link to="/inscripciones">Inscripciones</Link></li>
                             <li><Link to="/egresados">Egresados</Link></li>
                             <li><Link to="/especialidades">Departamentos</Link></li>
+                            <li><Link to="/galeria">Galeria</Link></li>
                         </ul>
                     </nav>
                 </div>
