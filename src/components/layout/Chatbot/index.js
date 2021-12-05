@@ -1,90 +1,60 @@
-import React, { useState, useEffect } from 'react';
-import modal from './modal.js'
+import React from 'react';
 
 import './styles.scss';
+import botpic from '../../../assets/images/botpic.jpg';
 
 function Chatbot() {
-    const [isFixed, setFixed] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const currentPositionY = window.pageYOffset;
-
-            if (currentPositionY > 35) {
-                setFixed(true);
-            } else {
-                setFixed(false);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
     return (
         <>
-        <div id="button_div"><button id="myBtn" class="modal-button">Consultar</button></div>
-        
-        <div id="myModal" class="modal">
+            <div id="button_div"><button type="button" id="myBtn" className="modal-button" onClick={() => { const modal = document.getElementById('myModal'); modal.style.display = 'block'; }}>Consultar</button></div>
 
-            <div class="modal-content">
-                <button class="close">&times;</button>
+            <div id="myModal" className="modal">
 
-            
-            <div id="answer"></div>
-        </div>
+                <button type="button" id="myBtn">Consultas</button>
 
-        </div>
+                <div className="modal-content">
+                    <button type="button" className="close" onClick={() => { const modal = document.getElementById('myModal'); modal.style.display = 'none'; }}>&times;</button>
+                    <div id="questions">
+                        <ul>
+                            <li>
+                                <button type="button" className="question modal-button" onClick={() => { const answerDiv = document.getElementById('answer-text'); answerDiv.innerHTML = 'Juan B Justo 4287'; }} id="myBtn2">¿Dónde queda el colegio?</button>
 
-        <button id="myBtn">Consultas</button>
+                            </li>
+                            <li>
+                                <button type="button" className="question modal-button" onClick={() => { const answerDiv = document.getElementById('answer-text'); answerDiv.innerHTML = 'Juan B Justo 4287'; }} id="myBtn3">¿Cuàl es el teléfono de la escuela?</button>
 
-        <div id="myModal" class="modal">
+                            </li>
+                            <li>
+                                <button type="button" className="question modal-button" onClick={() => { const answerDiv = document.getElementById('answer-text'); answerDiv.innerHTML = `Para revisar los horarios de tu curso entrá a esta página: ${<a href="../../../pages/Specialties">a</a>}`; }} id="myBtn4">¿Cuáles son los horarios?</button>
 
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="questions">
-                <ul>
-                    <li>
-                        <button class="question" onclick={modal.answer(1)} id="myBtn2" class="modal-button">¿Dónde queda el colegio?</button>
-                        
-                    </li>
-                    <li>
-                        <button class="question" onclick={modal.answer(2)} id="myBtn3" class="modal-button">¿Cuàl es el teléfono de la escuela?</button>
-                        
-                    </li>
-                    <li>
-                        <button class="question" onclick={modal.answer(3)} id="myBtn4">¿Cuáles son los horarios?</button>
-                        
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <button class="question" onclick={modal.answer(1)} id="myBtn2" class="modal-button">¿Dónde queda el colegio?</button>
-                        
-                    </li>
-                    <li>
-                        <button class="question" onclick={modal.answer(2)} id="myBtn3" class="modal-button">¿Cuàl es el teléfono de la escuela?</button>
-                        
-                    </li>
-                    <li>
-                        <button class="question" onclick={modal.answer(3)} id="myBtn4">¿Cuáles son los horarios?</button>
-                        
-                    </li>
-                </ul>
-            </div>
-            <div id="chat-content">
-                <img id="botpic" src="static/botpic.jpg" width="50px" height="50px" />
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <button type="button" className="question modal-button" onClick={() => { const answerDiv = document.getElementById('answer-text'); answerDiv.innerHTML = 'Juan B Justo 4287'; }} id="myBtn2">¿Dónde queda el colegio?</button>
 
-                <div id="answer"> 
-                    <p id="answer-text">def answer</p>
+                            </li>
+                            <li>
+                                <button type="button" className="question modal-button" onClick={() => { const answerDiv = document.getElementById('answer-text'); answerDiv.innerHTML = 'Juan B Justo 4287'; }} id="myBtn3">¿Cuàl es el teléfono de la escuela?</button>
+
+                            </li>
+                            <li>
+                                <button type="button" className="question" onClick={() => { const answerDiv = document.getElementById('answer-text'); answerDiv.innerHTML = 'Juan B Justo 4287'; }} id="myBtn4">¿Cuáles son los horarios?</button>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="chat-content">
+                        <img id="botpic" src={botpic} width="50px" height="50px" alt="imagen" />
+
+                        <div id="answer">
+                            <p id="answer-text">def answer</p>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
-
-        </div>
-
-        </div>
         </>
     );
 }

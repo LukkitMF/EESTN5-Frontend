@@ -10,6 +10,7 @@ import Specialties from './pages/Specialties';
 import Galery from './pages/Galery';
 
 import Header from './components/layout/Header';
+import ChatBot from './components/layout/Chatbot';
 
 function App() {
     return (
@@ -25,6 +26,8 @@ function App() {
                 <Route exact path="/galeria" component={Galery} />
                 <Route path="*" component={NotFound} />
             </Switch>
+
+            <ChatBot />
         </div>
     );
 }
