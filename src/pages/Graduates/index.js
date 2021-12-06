@@ -1,5 +1,4 @@
 import React from 'react';
-import blank from '../../assets/images/blankUser.png';
 
 import './styles.scss';
 
@@ -10,12 +9,37 @@ function Graduates() {
             <div className="Gcontainer">
                 <div className="graduates">
                     <h1 className="title">Egresados</h1>
-                    <div className="graduado">
-                        <img className="fotoEgresado" src={blank} alt="egresado" />
-                        <p className="infoEgresado">Nombre completo</p>
-                        <p className="infoEgresado">Especialidad</p>
-                        <p className="infoEgresado">Año de egreso</p>
+                    <div className="graduado informatica">
+                        <div className="Gfiller">
+                            <p className="fillerContent">fill</p>
+                        </div>
+                        <div className="graduadoContent">
+                            <p className="infoEgresado">Nombre completo</p>
+                            <p className="infoEgresado">Especialidad</p>
+                            <p className="infoEgresado">Año de egreso</p>
+                        </div>
+                    </div>
 
+                    <div className="graduado construcciones">
+                        <div className="Gfiller">
+                            <p className="fillerContent">fill</p>
+                        </div>
+                        <div className="graduadoContent">
+                            <p className="infoEgresado">Nombre completo</p>
+                            <p className="infoEgresado">Especialidad</p>
+                            <p className="infoEgresado">Año de egreso</p>
+                        </div>
+                    </div>
+
+                    <div className="graduado electronica">
+                        <div className="Gfiller">
+                            <p className="fillerContent">fill</p>
+                        </div>
+                        <div className="graduadoContent">
+                            <p className="infoEgresado">Nombre completo</p>
+                            <p className="infoEgresado">Especialidad</p>
+                            <p className="infoEgresado">Año de egreso</p>
+                        </div>
                     </div>
                 </div>
 

@@ -17,6 +17,7 @@
     background-color: gray;
     color: white;
     text-align: center;
+    margin: 2%;
 }
 .fotoEgresado{
     height:65%;
@@ -24,4 +25,27 @@
 }
 .infoEgresado{
     margin: 7px;
+}
+.informatica{
+    background-image: url('../../assets/images/egresadoInformatica.png');
+}
+.electronica{
+    background-image: url('../../assets/images/egresadoElectronica.png');
+}
+.construcciones{
+    background-image: url('../../assets/images/egresadoConstrucciones.png');
+}
+.graduadoContent{
+    background-color: black;
+    opacity:0.8;
+    height: auto;
+    margin:0;
+    padding: 0;
+    height: 38%;
+}
+.Gfiller{
+    color:transparent;
+    height: 60%;
+    padding: 0;
+    margin: 0;
 }
