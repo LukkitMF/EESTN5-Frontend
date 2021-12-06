@@ -8,6 +8,8 @@ import Graduates from './pages/Graduates';
 import Inscriptions from './pages/Inscriptions';
 import Specialties from './pages/Specialties';
 import Galery from './pages/Galery';
+import Login from './pages/Login';
+import AdmPanel from './pages/Admpanel';
 
 import Header from './components/layout/Header';
 import ChatBot from './components/layout/Chatbot';
@@ -24,6 +26,8 @@ function App() {
                 <Route exact path="/inscripciones" component={Inscriptions} />
                 <Route exact path="/especialidades" component={Specialties} />
                 <Route exact path="/galeria" component={Galery} />
+                <Route exact path="/admpanel/login" component={Login} />
+                <Route exact path="/admpanel" component={AdmPanel} />
                 <Route path="*" component={NotFound} />
             </Switch>
 

@@ -66,6 +66,8 @@
     background-repeat: no-repeat;
     width: 75%;
     height: 75%;
+    padding: 5%;
+    text-align: center;
   }
 
   #questions{
@@ -82,12 +84,6 @@
     padding-left: 10px;
     
   }
-
-  
-
-
-
-
 .question {
   appearance: none;
   background-color: #2ea44f;
@@ -137,4 +133,7 @@
 .question:active {
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+.botText{
+  padding-left: 15%;
 }
